@@ -1,10 +1,19 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  HttpCode,
+  HttpStatus,
+  Param,
+  Post,
+  Res,
+} from '@nestjs/common';
 
 @Controller('courses')
 export class CoursesController {
   @Get()
-  findAll() {
-    return 'Courses list';
+  findAll(@Res() response) {
+    return response.status(200).send('Courses list');
   }
 
   @Get(':id')
@@ -13,6 +22,7 @@ export class CoursesController {
   }
 
   @Post()
+  @HttpCode(HttpStatus.NO_CONTENT)
   create(@Body('name') body) {
     return body;
   }
