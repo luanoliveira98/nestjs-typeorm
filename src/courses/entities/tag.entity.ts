@@ -1,16 +1,35 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Column, Entity, ManyToMany, PrimaryGeneratedColumn } from 'typeorm';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import {
+  BeforeInsert,
+  Column,
+  CreateDateColumn,
+  Entity,
+  ManyToMany,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
+import { v4 as uuidv4 } from 'uuid';
 import { Course } from './course.entity';
 
 @Entity('tags')
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export class Tag {
-  @PrimaryGeneratedColumn()
-  id: number;
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column()
   name: string;
 
   @ManyToMany(() => Course, (course) => course.tags)
   courses: Course[];
+
+  @CreateDateColumn({ type: 'timestamp' })
+  created_at: Date;
+
+  @BeforeInsert()
+  generatedId() {
+    if (this.id) {
+      return;
+    }
+
+    this.id = uuidv4();
+  }
 }

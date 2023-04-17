@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -14,7 +15,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       username: 'postgres',
       password: 'docker',
       database: 'nestjscourse',
-      autoLoadEntities: true,
+      entities: [__dirname + '/**/*.entity.js'],
+      autoLoadEntities: false,
       synchronize: false,
     }),
   ],
