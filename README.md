@@ -9,8 +9,8 @@
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <img src="https://img.shields.io/static/v1?label=Made%20with&message=Typescript&color=007acc"/>
-  <a href="https://cursos.alura.com.br">
-    <img src="https://img.shields.io/static/v1?label=Course%20of&message=Alura&color=7159c1"/>
+  <a href="https://www.udemy.com/course/nestjs-do-zero">
+    <img src="https://img.shields.io/static/v1?label=Course%20of&message=Udemy&color=5624d0"/>
   </a>
 </p>
 
