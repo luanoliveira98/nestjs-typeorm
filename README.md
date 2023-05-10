@@ -8,7 +8,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luanoliveira98/nestjs-typeorm">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  <img src="https://img.shields.io/static/v1?label=Made%20with&message=Typescript&color=007acc"/>
+  <img src="https://img.shields.io/static/v1?label=Made%20with&message=NestJs&color=ea2845"/>
   <a href="https://www.udemy.com/course/nestjs-do-zero">
     <img src="https://img.shields.io/static/v1?label=Course%20of&message=Udemy&color=5624d0"/>
   </a>
@@ -38,10 +38,10 @@ In addition, it is good to have an editor to work with the code like [VSCode](ht
 ````bash
 
 #clone this repository
-$ git clone git@github.com:luanoliveira98/devtraining-nest.git
+$ git clone git@github.com:luanoliveira98/nestjs-typeorm.git
 
 # Acess the project folder cmd/terminal
-$ cd devtraining-nest
+$ cd nestjs-typeorm
 
 # Install the dependencies
 $ npm install
@@ -57,9 +57,8 @@ $ npm run start:dev
 
 ## 🛠️ Tech Stack
 
-- **[Node](https://nodejs.org/en/)**
-- **[Typescript](https://www.typescriptlang.org/)**
 - **[NestJs](https://nestjs.com/)**
+- **[TypeORM](https://typeorm.io/)**
 
 ## Author
 ---
