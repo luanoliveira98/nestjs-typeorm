@@ -2,10 +2,10 @@
 <p align="center"> Project to training with NestJS </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luanoliveira98/devtraining-nest?color=%2304D361"/>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luanoliveira98/devtraining-nest">
-  <a href="https://github.com/luanoliveira98/devtraining-nest/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luanoliveira98/devtraining-nest">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luanoliveira98/nestjs-typeorm?color=%2304D361"/>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luanoliveira98/nestjs-typeorm">
+  <a href="https://github.com/luanoliveira98/nestjs-typeorm/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luanoliveira98/nestjs-typeorm">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <img src="https://img.shields.io/static/v1?label=Made%20with&message=Typescript&color=007acc"/>
